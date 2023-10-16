@@ -1,0 +1,20 @@
+div.container > div{
+    background-color: salmon;
+    margin: 10px;
+    font-size: 50px;
+    width: 100px;
+    line-height: 100px;
+    text-align: center;
+    color: white;
+    height: 100px;
+}
+.container{  
+    background-color: khaki;
+    display: flex;
+}
+.container{
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+    flex-flow: row-reverse wrap;
+}
